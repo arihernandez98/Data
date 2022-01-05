@@ -11,4 +11,4 @@
 * Name: 2010 Census Urban Areas and Clusters
 * Description: Another data source for my capstone project. Because the ORLP requires that potential projects be in urban areas with a population of 50,000 or more, applicants must use the 2010 Census Urban Areas and Clusters to provide proof that their outdoor recreation oppoturnity will serve the appropriate population.
 * [URL Link to source](https://www.census.gov/geographies/mapping-files/time-series/geo/carto-boundary-file.html) 
-* URL Link to Repo: 
+* [URL Link to Repo](https://github.com/arihernandez98/Data/tree/main/cb_2012_us_uac10_500k
