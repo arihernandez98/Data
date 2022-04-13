@@ -1,0 +1,1850 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_4d79522117d645ac96febca99b917893 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_4d79522117d645ac96febca99b917893" ></div>
+        
+</body>
+<script>    
+    
+            var map_4d79522117d645ac96febca99b917893 = L.map(
+                "map_4d79522117d645ac96febca99b917893",
+                {
+                    center: [0, 0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 1,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_c587e98c73b846f19f9c08834c0c1897 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_4d79522117d645ac96febca99b917893);
+        
+    
+            var marker_33afc5a5ee044eed9402661328abef92 = L.marker(
+                [37.76003803, -122.2217066],
+                {}
+            ).addTo(map_4d79522117d645ac96febca99b917893);
+        
+    
+        var popup_431b6691b66d465985233bc7852ead82 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1b2c3c8c39754b58adc19f9fd23cf2db = $(`<div id="html_1b2c3c8c39754b58adc19f9fd23cf2db" style="width: 100.0%; height: 100.0%;">Project Name: Tidewater Estuary Park Improvements and Public Access<br>Project Year: 2019<br>City: East Oakland<br>Project Sponsor: East Bay Regional Park District (San Francisco)</div>`)[0];
+            popup_431b6691b66d465985233bc7852ead82.setContent(html_1b2c3c8c39754b58adc19f9fd23cf2db);
+        
+
+        marker_33afc5a5ee044eed9402661328abef92.bindPopup(popup_431b6691b66d465985233bc7852ead82)
+        ;
+
+        
+    
+    
+            marker_33afc5a5ee044eed9402661328abef92.bindTooltip(
+                `<div>
+                     Tidewater Estuary Park Improvements and Public Access
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_50293f02f5934f45a422c223a014a402 = L.marker(
+                [34.42496194, -119.6899554],
+                {}
+            ).addTo(map_4d79522117d645ac96febca99b917893);
+        
+    
+        var popup_0371827b6f684c73b527cf4fb1b192db = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d590bddf62cb454685e6162f6ef80dfa = $(`<div id="html_d590bddf62cb454685e6162f6ef80dfa" style="width: 100.0%; height: 100.0%;">Project Name: Ortega Park Revitalization Project<br>Project Year: 2019<br>City: Santa Barbara <br>Project Sponsor: City of Santa Barbara Parks and Recreation</div>`)[0];
+            popup_0371827b6f684c73b527cf4fb1b192db.setContent(html_d590bddf62cb454685e6162f6ef80dfa);
+        
+
+        marker_50293f02f5934f45a422c223a014a402.bindPopup(popup_0371827b6f684c73b527cf4fb1b192db)
+        ;
+
+        
+    
+    
+            marker_50293f02f5934f45a422c223a014a402.bindTooltip(
+                `<div>
+                     Ortega Park Revitalization Project
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_72df33afe02446cbba59196516a10bb9 = L.marker(
+                [34.11430153, -118.3333221],
+                {}
+            ).addTo(map_4d79522117d645ac96febca99b917893);
+        
+    
+        var popup_34f50cb541844b6e953bfe8cccc86f93 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dd2a183982204443a98997a6d6fe73eb = $(`<div id="html_dd2a183982204443a98997a6d6fe73eb" style="width: 100.0%; height: 100.0%;">Project Name: Ford’s Theater Hiking Trail <br>Project Year: 2019<br>City: Hollywood Hills<br>Project Sponsor: County of Los Angeles Department of Parks and Recreation</div>`)[0];
+            popup_34f50cb541844b6e953bfe8cccc86f93.setContent(html_dd2a183982204443a98997a6d6fe73eb);
+        
+
+        marker_72df33afe02446cbba59196516a10bb9.bindPopup(popup_34f50cb541844b6e953bfe8cccc86f93)
+        ;
+
+        
+    
+    
+            marker_72df33afe02446cbba59196516a10bb9.bindTooltip(
+                `<div>
+                     Ford’s Theater Hiking Trail 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e686843f12d549e686cdb821e3c94640 = L.marker(
+                [38.89605463, -76.96413647],
+                {}
+            ).addTo(map_4d79522117d645ac96febca99b917893);
+        
+    
+        var popup_843bed3cd7eb455ead32a657e03d36e1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1930bb8ee0634dae8377320533615d86 = $(`<div id="html_1930bb8ee0634dae8377320533615d86" style="width: 100.0%; height: 100.0%;">Project Name: Equitable Access to Paddle Sport Recreation at Kingman Island<br>Project Year: 2019<br>City: Kingman Island<br>Project Sponsor: Department of Energy and Environment</div>`)[0];
+            popup_843bed3cd7eb455ead32a657e03d36e1.setContent(html_1930bb8ee0634dae8377320533615d86);
+        
+
+        marker_e686843f12d549e686cdb821e3c94640.bindPopup(popup_843bed3cd7eb455ead32a657e03d36e1)
+        ;
+
+        
+    
+    
+            marker_e686843f12d549e686cdb821e3c94640.bindTooltip(
+                `<div>
+                     Equitable Access to Paddle Sport Recreation at Kingman Island
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cb4fe6de3b8c4da2a87ceabffbbe5247 = L.marker(
+                [41.60671159, -93.61267185],
+                {}
+            ).addTo(map_4d79522117d645ac96febca99b917893);
+        
+    
+        var popup_f3efc92eba3b4a7583e4b46fdfa2b032 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e02e20cc58634490b23908367c9554fb = $(`<div id="html_e02e20cc58634490b23908367c9554fb" style="width: 100.0%; height: 100.0%;">Project Name: Central Place Levee Trail - Phase I <br>Project Year: 2019<br>City: Des Moines<br>Project Sponsor: City of Des Moines</div>`)[0];
+            popup_f3efc92eba3b4a7583e4b46fdfa2b032.setContent(html_e02e20cc58634490b23908367c9554fb);
+        
+
+        marker_cb4fe6de3b8c4da2a87ceabffbbe5247.bindPopup(popup_f3efc92eba3b4a7583e4b46fdfa2b032)
+        ;
+
+        
+    
+    
+            marker_cb4fe6de3b8c4da2a87ceabffbbe5247.bindTooltip(
+                `<div>
+                     Central Place Levee Trail - Phase I 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1a7b5cc72c9744929e74c160ddf03a9c = L.marker(
+                [39.25459193, -76.61965049],
+                {}
+            ).addTo(map_4d79522117d645ac96febca99b917893);
+        
+    
+        var popup_7849f4241abb42048017691945fc5434 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b598bd30ad764408bba187261f9b7101 = $(`<div id="html_b598bd30ad764408bba187261f9b7101" style="width: 100.0%; height: 100.0%;">Project Name: Middle Branch Park Trail and Water Access<br>Project Year: 2019<br>City: Baltimore<br>Project Sponsor: City of Baltimore</div>`)[0];
+            popup_7849f4241abb42048017691945fc5434.setContent(html_b598bd30ad764408bba187261f9b7101);
+        
+
+        marker_1a7b5cc72c9744929e74c160ddf03a9c.bindPopup(popup_7849f4241abb42048017691945fc5434)
+        ;
+
+        
+    
+    
+            marker_1a7b5cc72c9744929e74c160ddf03a9c.bindTooltip(
+                `<div>
+                     Middle Branch Park Trail and Water Access
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_61ee87e89aec41e4afc15ff062ea7949 = L.marker(
+                [42.30979477, -71.77588835],
+                {}
+            ).addTo(map_4d79522117d645ac96febca99b917893);
+        
+    
+        var popup_289647d9275d473aad32001dd9de1bbb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ea44b83051ef401a8183442a2cbaaaa1 = $(`<div id="html_ea44b83051ef401a8183442a2cbaaaa1" style="width: 100.0%; height: 100.0%;">Project Name: Tacoma Street Playground Renovation<br>Project Year: 2019<br>City: Worcester <br>Project Sponsor: City of Worcester </div>`)[0];
+            popup_289647d9275d473aad32001dd9de1bbb.setContent(html_ea44b83051ef401a8183442a2cbaaaa1);
+        
+
+        marker_61ee87e89aec41e4afc15ff062ea7949.bindPopup(popup_289647d9275d473aad32001dd9de1bbb)
+        ;
+
+        
+    
+    
+            marker_61ee87e89aec41e4afc15ff062ea7949.bindTooltip(
+                `<div>
+                     Tacoma Street Playground Renovation
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_84bf429995a74b30b0edffe9f58ec7d7 = L.marker(
+                [43.01551106, -83.70023596],
+                {}
+            ).addTo(map_4d79522117d645ac96febca99b917893);
+        
+    
+        var popup_65ede5d7c82e48c18913a112501a5d0d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7fb6b2a2e65d42b9b7032d8929a004c8 = $(`<div id="html_7fb6b2a2e65d42b9b7032d8929a004c8" style="width: 100.0%; height: 100.0%;">Project Name: Flint River Restoration Project<br>Project Year: 2019<br>City: Flint<br>Project Sponsor: Genesee County</div>`)[0];
+            popup_65ede5d7c82e48c18913a112501a5d0d.setContent(html_7fb6b2a2e65d42b9b7032d8929a004c8);
+        
+
+        marker_84bf429995a74b30b0edffe9f58ec7d7.bindPopup(popup_65ede5d7c82e48c18913a112501a5d0d)
+        ;
+
+        
+    
+    
+            marker_84bf429995a74b30b0edffe9f58ec7d7.bindTooltip(
+                `<div>
+                     Flint River Restoration Project
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3b39864a3a2b4441aabfa69d000f952c = L.marker(
+                [38.76390869, -90.18242846],
+                {}
+            ).addTo(map_4d79522117d645ac96febca99b917893);
+        
+    
+        var popup_9b2adae2b83a42778102cbbabeedee89 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ab41a89ceaf94ec9b548209aa7eeb631 = $(`<div id="html_ab41a89ceaf94ec9b548209aa7eeb631" style="width: 100.0%; height: 100.0%;">Project Name: A New Vision for The Old Chain of Rocks Bridge Park and Trailhead <br>Project Year: 2019<br>City: St. Louis<br>Project Sponsor: Great Rivers Greenway (St. Louis)</div>`)[0];
+            popup_9b2adae2b83a42778102cbbabeedee89.setContent(html_ab41a89ceaf94ec9b548209aa7eeb631);
+        
+
+        marker_3b39864a3a2b4441aabfa69d000f952c.bindPopup(popup_9b2adae2b83a42778102cbbabeedee89)
+        ;
+
+        
+    
+    
+            marker_3b39864a3a2b4441aabfa69d000f952c.bindTooltip(
+                `<div>
+                     A New Vision for The Old Chain of Rocks Bridge Park and Trailhead 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c2d5a1c17d73471e91845995245d26fe = L.marker(
+                [40.22956912, -74.74454676],
+                {}
+            ).addTo(map_4d79522117d645ac96febca99b917893);
+        
+    
+        var popup_4c6c681e86c64fd6a21439c331c30b44 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ba797b0c264e468c8d53ef03f0e695ea = $(`<div id="html_ba797b0c264e468c8d53ef03f0e695ea" style="width: 100.0%; height: 100.0%;">Project Name: 104 Taylor Street Soccer and Fitness Development<br>Project Year: 2019<br>City: Trenton<br>Project Sponsor: City of Trenton</div>`)[0];
+            popup_4c6c681e86c64fd6a21439c331c30b44.setContent(html_ba797b0c264e468c8d53ef03f0e695ea);
+        
+
+        marker_c2d5a1c17d73471e91845995245d26fe.bindPopup(popup_4c6c681e86c64fd6a21439c331c30b44)
+        ;
+
+        
+    
+    
+            marker_c2d5a1c17d73471e91845995245d26fe.bindTooltip(
+                `<div>
+                     104 Taylor Street Soccer and Fitness Development
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8ca4a698e7744308b16f5ea3f947b1f4 = L.marker(
+                [39.92289269, -75.09607348],
+                {}
+            ).addTo(map_4d79522117d645ac96febca99b917893);
+        
+    
+        var popup_4b8d4cb5c40443df8c11f2b1c7ae60fc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b4d162c3525048088c7e6b6987e1a461 = $(`<div id="html_b4d162c3525048088c7e6b6987e1a461" style="width: 100.0%; height: 100.0%;">Project Name: Whitman Park Improvement and Expansion<br>Project Year: 2019<br>City: Whitman Park<br>Project Sponsor: Camden County</div>`)[0];
+            popup_4b8d4cb5c40443df8c11f2b1c7ae60fc.setContent(html_b4d162c3525048088c7e6b6987e1a461);
+        
+
+        marker_8ca4a698e7744308b16f5ea3f947b1f4.bindPopup(popup_4b8d4cb5c40443df8c11f2b1c7ae60fc)
+        ;
+
+        
+    
+    
+            marker_8ca4a698e7744308b16f5ea3f947b1f4.bindTooltip(
+                `<div>
+                     Whitman Park Improvement and Expansion
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9ec70bc6769c4757a4efbd1e2c15c849 = L.marker(
+                [35.96280278, -77.80287632],
+                {}
+            ).addTo(map_4d79522117d645ac96febca99b917893);
+        
+    
+        var popup_f6398189521643bd92a2c522545d5ecd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2a5172f700f9473e8ffe4406b0ec9c10 = $(`<div id="html_2a5172f700f9473e8ffe4406b0ec9c10" style="width: 100.0%; height: 100.0%;">Project Name: Battle Park Renovation<br>Project Year: 2019<br>City: Rocky Mount <br>Project Sponsor: City of Rocky Mount</div>`)[0];
+            popup_f6398189521643bd92a2c522545d5ecd.setContent(html_2a5172f700f9473e8ffe4406b0ec9c10);
+        
+
+        marker_9ec70bc6769c4757a4efbd1e2c15c849.bindPopup(popup_f6398189521643bd92a2c522545d5ecd)
+        ;
+
+        
+    
+    
+            marker_9ec70bc6769c4757a4efbd1e2c15c849.bindTooltip(
+                `<div>
+                     Battle Park Renovation
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7eab45976c064559993979389378abee = L.marker(
+                [41.46980064, -81.72598893],
+                {}
+            ).addTo(map_4d79522117d645ac96febca99b917893);
+        
+    
+        var popup_9c2eafd35d5644319de2b9102f8bcf92 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c73025765eeb41b1bfc1d4529917a62f = $(`<div id="html_c73025765eeb41b1bfc1d4529917a62f" style="width: 100.0%; height: 100.0%;">Project Name: Clark Avenue Park Development Project<br>Project Year: 2019<br>City: Cleveland<br>Project Sponsor: City of Cleveland</div>`)[0];
+            popup_9c2eafd35d5644319de2b9102f8bcf92.setContent(html_c73025765eeb41b1bfc1d4529917a62f);
+        
+
+        marker_7eab45976c064559993979389378abee.bindPopup(popup_9c2eafd35d5644319de2b9102f8bcf92)
+        ;
+
+        
+    
+    
+            marker_7eab45976c064559993979389378abee.bindTooltip(
+                `<div>
+                     Clark Avenue Park Development Project
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1ea5c929313e41138eca2530cac9428e = L.marker(
+                [41.65376037, -83.51808845],
+                {}
+            ).addTo(map_4d79522117d645ac96febca99b917893);
+        
+    
+        var popup_f4bb321d9db34a1c89b815b6e60ad019 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bd6bb0e889b64582a48c2c2ab654d204 = $(`<div id="html_bd6bb0e889b64582a48c2c2ab654d204" style="width: 100.0%; height: 100.0%;">Project Name: Glass City Metropark: Urban Camping<br>Project Year: 2019<br>City: Toledo <br>Project Sponsor: Metroparks Toledo</div>`)[0];
+            popup_f4bb321d9db34a1c89b815b6e60ad019.setContent(html_bd6bb0e889b64582a48c2c2ab654d204);
+        
+
+        marker_1ea5c929313e41138eca2530cac9428e.bindPopup(popup_f4bb321d9db34a1c89b815b6e60ad019)
+        ;
+
+        
+    
+    
+            marker_1ea5c929313e41138eca2530cac9428e.bindTooltip(
+                `<div>
+                     Glass City Metropark: Urban Camping
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_90c1d58329b84b39b5950acb66475379 = L.marker(
+                [32.83182793, -79.93912806],
+                {}
+            ).addTo(map_4d79522117d645ac96febca99b917893);
+        
+    
+        var popup_0a00782567554ea8a8d37e0273d3ee09 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_60fcace8ffe2475aafdb86f4943a2e10 = $(`<div id="html_60fcace8ffe2475aafdb86f4943a2e10" style="width: 100.0%; height: 100.0%;">Project Name: Cooper River County Park Development <br>Project Year: 2019<br>City: North Charleston<br>Project Sponsor: Charleston County Park and Recreation Commission</div>`)[0];
+            popup_0a00782567554ea8a8d37e0273d3ee09.setContent(html_60fcace8ffe2475aafdb86f4943a2e10);
+        
+
+        marker_90c1d58329b84b39b5950acb66475379.bindPopup(popup_0a00782567554ea8a8d37e0273d3ee09)
+        ;
+
+        
+    
+    
+            marker_90c1d58329b84b39b5950acb66475379.bindTooltip(
+                `<div>
+                     Cooper River County Park Development 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d012726742c84910b0ea823b5d240ee6 = L.marker(
+                [47.17873579, -122.4727647],
+                {}
+            ).addTo(map_4d79522117d645ac96febca99b917893);
+        
+    
+        var popup_80c1f551fa9a4b269b57aec3d0e0ae1e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_531ef368a82e416eb9236fb6641512db = $(`<div id="html_531ef368a82e416eb9236fb6641512db" style="width: 100.0%; height: 100.0%;">Project Name: Wards Lake Park Enhancement <br>Project Year: 2019<br>City: Lakewood<br>Project Sponsor: City of Lakewood</div>`)[0];
+            popup_80c1f551fa9a4b269b57aec3d0e0ae1e.setContent(html_531ef368a82e416eb9236fb6641512db);
+        
+
+        marker_d012726742c84910b0ea823b5d240ee6.bindPopup(popup_80c1f551fa9a4b269b57aec3d0e0ae1e)
+        ;
+
+        
+    
+    
+            marker_d012726742c84910b0ea823b5d240ee6.bindTooltip(
+                `<div>
+                     Wards Lake Park Enhancement 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ee5e6979d1914c07b6e6d974d158feb0 = L.marker(
+                [47.57059755, -122.2894611],
+                {}
+            ).addTo(map_4d79522117d645ac96febca99b917893);
+        
+    
+        var popup_157775b19daa40ffb35e50391e06bcc5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4ad92d1c44534bdb8b30046a6e72afa1 = $(`<div id="html_4ad92d1c44534bdb8b30046a6e72afa1" style="width: 100.0%; height: 100.0%;">Project Name: North Rainier Park Development <br>Project Year: 2019<br>City: Seattle<br>Project Sponsor: Seattle Parks and Recreation</div>`)[0];
+            popup_157775b19daa40ffb35e50391e06bcc5.setContent(html_4ad92d1c44534bdb8b30046a6e72afa1);
+        
+
+        marker_ee5e6979d1914c07b6e6d974d158feb0.bindPopup(popup_157775b19daa40ffb35e50391e06bcc5)
+        ;
+
+        
+    
+    
+            marker_ee5e6979d1914c07b6e6d974d158feb0.bindTooltip(
+                `<div>
+                     North Rainier Park Development 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ee7d588445624ce28ad7313760c39552 = L.marker(
+                [47.55999463, -122.3186762],
+                {}
+            ).addTo(map_4d79522117d645ac96febca99b917893);
+        
+    
+        var popup_ff786ff4d31d401987e863e654ce6ae6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_862b536317c248ec830ae34535219c21 = $(`<div id="html_862b536317c248ec830ae34535219c21" style="width: 100.0%; height: 100.0%;">Project Name: Maple Wood Playfield Renovation <br>Project Year: 2019<br>City: Seattle<br>Project Sponsor: Seattle Parks and Recreation</div>`)[0];
+            popup_ff786ff4d31d401987e863e654ce6ae6.setContent(html_862b536317c248ec830ae34535219c21);
+        
+
+        marker_ee7d588445624ce28ad7313760c39552.bindPopup(popup_ff786ff4d31d401987e863e654ce6ae6)
+        ;
+
+        
+    
+    
+            marker_ee7d588445624ce28ad7313760c39552.bindTooltip(
+                `<div>
+                     Maple Wood Playfield Renovation 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_36ab65ab649f4a9bb7dd435f7b097843 = L.marker(
+                [42.99191174, -87.93987137],
+                {}
+            ).addTo(map_4d79522117d645ac96febca99b917893);
+        
+    
+        var popup_4b03547ac78140ef9732d2660c641f26 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b006dac3738b40f0855733f9717a419f = $(`<div id="html_b006dac3738b40f0855733f9717a419f" style="width: 100.0%; height: 100.0%;">Project Name: Extending the Kinnickinnic River Oak Leaf Trail to High Needs Areas <br>Project Year: 2019<br>City: Milwaukee<br>Project Sponsor: City of Milwaukee</div>`)[0];
+            popup_4b03547ac78140ef9732d2660c641f26.setContent(html_b006dac3738b40f0855733f9717a419f);
+        
+
+        marker_36ab65ab649f4a9bb7dd435f7b097843.bindPopup(popup_4b03547ac78140ef9732d2660c641f26)
+        ;
+
+        
+    
+    
+            marker_36ab65ab649f4a9bb7dd435f7b097843.bindTooltip(
+                `<div>
+                     Extending the Kinnickinnic River Oak Leaf Trail to High Needs Areas 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_16460a9637aa462db780bbe231d45f79 = L.marker(
+                [35.395274, -94.40528],
+                {}
+            ).addTo(map_4d79522117d645ac96febca99b917893);
+        
+    
+        var popup_a19694ed74a64d55b239a2446b31412e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6a7e846d41774470a57fd33c218a862b = $(`<div id="html_6a7e846d41774470a57fd33c218a862b" style="width: 100.0%; height: 100.0%;">Project Name: May Branch Railroad Trail Phase I<br>Project Year: 2017<br>City: Fort Smith<br>Project Sponsor: The City of Fort Smith</div>`)[0];
+            popup_a19694ed74a64d55b239a2446b31412e.setContent(html_6a7e846d41774470a57fd33c218a862b);
+        
+
+        marker_16460a9637aa462db780bbe231d45f79.bindPopup(popup_a19694ed74a64d55b239a2446b31412e)
+        ;
+
+        
+    
+    
+            marker_16460a9637aa462db780bbe231d45f79.bindTooltip(
+                `<div>
+                     May Branch Railroad Trail Phase I
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_988bdbbb54054eac964217e63ffb70d3 = L.marker(
+                [34.7083344, -92.3602972],
+                {}
+            ).addTo(map_4d79522117d645ac96febca99b917893);
+        
+    
+        var popup_9ca2708d5e554113872279f53f265e01 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2efcae7e8fab4046931d3a45c052b61a = $(`<div id="html_2efcae7e8fab4046931d3a45c052b61a" style="width: 100.0%; height: 100.0%;">Project Name: Western Hills Park Legacy Project<br>Project Year: 2017<br>City: Little Rock<br>Project Sponsor: The City of Little Rock</div>`)[0];
+            popup_9ca2708d5e554113872279f53f265e01.setContent(html_2efcae7e8fab4046931d3a45c052b61a);
+        
+
+        marker_988bdbbb54054eac964217e63ffb70d3.bindPopup(popup_9ca2708d5e554113872279f53f265e01)
+        ;
+
+        
+    
+    
+            marker_988bdbbb54054eac964217e63ffb70d3.bindTooltip(
+                `<div>
+                     Western Hills Park Legacy Project
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dc120ccfde48403b82d034210b680643 = L.marker(
+                [34.0715702, -118.0109232],
+                {}
+            ).addTo(map_4d79522117d645ac96febca99b917893);
+        
+    
+        var popup_843153a2cddf4d949f682ceb7430222e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8a57f640e1f24b8595aa376a9f2fd510 = $(`<div id="html_8a57f640e1f24b8595aa376a9f2fd510" style="width: 100.0%; height: 100.0%;">Project Name: Zamora Park Renovation<br>Project Year: 2017<br>City: El Monte<br>Project Sponsor: The City of El Monte</div>`)[0];
+            popup_843153a2cddf4d949f682ceb7430222e.setContent(html_8a57f640e1f24b8595aa376a9f2fd510);
+        
+
+        marker_dc120ccfde48403b82d034210b680643.bindPopup(popup_843153a2cddf4d949f682ceb7430222e)
+        ;
+
+        
+    
+    
+            marker_dc120ccfde48403b82d034210b680643.bindTooltip(
+                `<div>
+                     Zamora Park Renovation
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d9625d2190fd4ef6acaca51284630f35 = L.marker(
+                [34.2892327, -83.8016748],
+                {}
+            ).addTo(map_4d79522117d645ac96febca99b917893);
+        
+    
+        var popup_676237eb8d0d420aa25a82079fad6ea3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6919c91b559d4ae58209f8ea9893bf08 = $(`<div id="html_6919c91b559d4ae58209f8ea9893bf08" style="width: 100.0%; height: 100.0%;">Project Name: Athens Street Park Development<br>Project Year: 2017<br>City: Gainesville<br>Project Sponsor: Hall County</div>`)[0];
+            popup_676237eb8d0d420aa25a82079fad6ea3.setContent(html_6919c91b559d4ae58209f8ea9893bf08);
+        
+
+        marker_d9625d2190fd4ef6acaca51284630f35.bindPopup(popup_676237eb8d0d420aa25a82079fad6ea3)
+        ;
+
+        
+    
+    
+            marker_d9625d2190fd4ef6acaca51284630f35.bindTooltip(
+                `<div>
+                     Athens Street Park Development
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4fd91dace0284c1f9a560be1e0fc0638 = L.marker(
+                [39.8145669, -86.1410281],
+                {}
+            ).addTo(map_4d79522117d645ac96febca99b917893);
+        
+    
+        var popup_e24d69459ffd40f283c75f4e469e84e8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_caa41c6361574132b04c063ebc0985d6 = $(`<div id="html_caa41c6361574132b04c063ebc0985d6" style="width: 100.0%; height: 100.0%;">Project Name: Rev. Charles Williams Park Development<br>Project Year: 2017<br>City: Indianapolis<br>Project Sponsor: The City of Indianapolis </div>`)[0];
+            popup_e24d69459ffd40f283c75f4e469e84e8.setContent(html_caa41c6361574132b04c063ebc0985d6);
+        
+
+        marker_4fd91dace0284c1f9a560be1e0fc0638.bindPopup(popup_e24d69459ffd40f283c75f4e469e84e8)
+        ;
+
+        
+    
+    
+            marker_4fd91dace0284c1f9a560be1e0fc0638.bindTooltip(
+                `<div>
+                     Rev. Charles Williams Park Development
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8a866ee3ba31460da336560483d9bf6b = L.marker(
+                [37.0009753, -86.4308173],
+                {}
+            ).addTo(map_4d79522117d645ac96febca99b917893);
+        
+    
+        var popup_4602a2b240964a3fae28ec2a3274bf45 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a23a5208b00e4857870513e31f3e4e19 = $(`<div id="html_a23a5208b00e4857870513e31f3e4e19" style="width: 100.0%; height: 100.0%;">Project Name: Bowling Green Riverwalk Park<br>Project Year: 2017<br>City: Bowling Green<br>Project Sponsor: The City of Bowling Green</div>`)[0];
+            popup_4602a2b240964a3fae28ec2a3274bf45.setContent(html_a23a5208b00e4857870513e31f3e4e19);
+        
+
+        marker_8a866ee3ba31460da336560483d9bf6b.bindPopup(popup_4602a2b240964a3fae28ec2a3274bf45)
+        ;
+
+        
+    
+    
+            marker_8a866ee3ba31460da336560483d9bf6b.bindTooltip(
+                `<div>
+                     Bowling Green Riverwalk Park
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f146e4bd8f7848ab839a0e68fae0cd87 = L.marker(
+                [43.661322, -70.24465],
+                {}
+            ).addTo(map_4d79522117d645ac96febca99b917893);
+        
+    
+        var popup_b4a2a9d55e754307af71fd2df23d37b1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a62c1be1171242c28f0246d6d2918198 = $(`<div id="html_a62c1be1171242c28f0246d6d2918198" style="width: 100.0%; height: 100.0%;">Project Name: Portland Landing Park Development Project<br>Project Year: 2017<br>City: Portland<br>Project Sponsor: The City of Portland </div>`)[0];
+            popup_b4a2a9d55e754307af71fd2df23d37b1.setContent(html_a62c1be1171242c28f0246d6d2918198);
+        
+
+        marker_f146e4bd8f7848ab839a0e68fae0cd87.bindPopup(popup_b4a2a9d55e754307af71fd2df23d37b1)
+        ;
+
+        
+    
+    
+            marker_f146e4bd8f7848ab839a0e68fae0cd87.bindTooltip(
+                `<div>
+                     Portland Landing Park Development Project
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_034f5dfe2ad343bd91b59ce7eba6a8b0 = L.marker(
+                [42.4044958, -71.0846126],
+                {}
+            ).addTo(map_4d79522117d645ac96febca99b917893);
+        
+    
+        var popup_78ee3fe0833942a8873381a6a292dbdf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_72635611c62746fbb5b8285524d2d993 = $(`<div id="html_72635611c62746fbb5b8285524d2d993" style="width: 100.0%; height: 100.0%;">Project Name: Clippership Connector - Mystic River Reservation<br>Project Year: 2017<br>City: Medford<br>Project Sponsor: The Massachusetts Department of Conservation and Recreation</div>`)[0];
+            popup_78ee3fe0833942a8873381a6a292dbdf.setContent(html_72635611c62746fbb5b8285524d2d993);
+        
+
+        marker_034f5dfe2ad343bd91b59ce7eba6a8b0.bindPopup(popup_78ee3fe0833942a8873381a6a292dbdf)
+        ;
+
+        
+    
+    
+            marker_034f5dfe2ad343bd91b59ce7eba6a8b0.bindTooltip(
+                `<div>
+                     Clippership Connector - Mystic River Reservation
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2787f8e5f03b4f08bbc3d0f4e31340d6 = L.marker(
+                [44.9537565, -93.1510958],
+                {}
+            ).addTo(map_4d79522117d645ac96febca99b917893);
+        
+    
+        var popup_57d8fe77ee554135ae3ad879add19ec2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e2bdb9d552674ff2a17073afb31ba9b7 = $(`<div id="html_e2bdb9d552674ff2a17073afb31ba9b7" style="width: 100.0%; height: 100.0%;">Project Name: Midway Peace Park<br>Project Year: 2017<br>City: St. Paul<br>Project Sponsor: The City of St. Paul </div>`)[0];
+            popup_57d8fe77ee554135ae3ad879add19ec2.setContent(html_e2bdb9d552674ff2a17073afb31ba9b7);
+        
+
+        marker_2787f8e5f03b4f08bbc3d0f4e31340d6.bindPopup(popup_57d8fe77ee554135ae3ad879add19ec2)
+        ;
+
+        
+    
+    
+            marker_2787f8e5f03b4f08bbc3d0f4e31340d6.bindTooltip(
+                `<div>
+                     Midway Peace Park
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_248fb1ae36d849d58e308daaf9cbe6e3 = L.marker(
+                [32.3295945, -106.7769129],
+                {}
+            ).addTo(map_4d79522117d645ac96febca99b917893);
+        
+    
+        var popup_2bab5f4253184186b532b09aee4a5769 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_902203fcf58d47c8830dd0797beafdd8 = $(`<div id="html_902203fcf58d47c8830dd0797beafdd8" style="width: 100.0%; height: 100.0%;">Project Name: Apodaca Park Renovation<br>Project Year: 2017<br>City: Las Cruces<br>Project Sponsor: The City of Las Cruces</div>`)[0];
+            popup_2bab5f4253184186b532b09aee4a5769.setContent(html_902203fcf58d47c8830dd0797beafdd8);
+        
+
+        marker_248fb1ae36d849d58e308daaf9cbe6e3.bindPopup(popup_2bab5f4253184186b532b09aee4a5769)
+        ;
+
+        
+    
+    
+            marker_248fb1ae36d849d58e308daaf9cbe6e3.bindTooltip(
+                `<div>
+                     Apodaca Park Renovation
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ad0461f4398c4e33b73f10d16a71e0d4 = L.marker(
+                [36.093698, -79.745655],
+                {}
+            ).addTo(map_4d79522117d645ac96febca99b917893);
+        
+    
+        var popup_6d1bc90bf194481eb0ed5289fba79685 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ed4db8a035e54917b0f4ae6145097e91 = $(`<div id="html_ed4db8a035e54917b0f4ae6145097e91" style="width: 100.0%; height: 100.0%;">Project Name: Peeler Community Park<br>Project Year: 2017<br>City: Greensboro<br>Project Sponsor: The City of Greensboro </div>`)[0];
+            popup_6d1bc90bf194481eb0ed5289fba79685.setContent(html_ed4db8a035e54917b0f4ae6145097e91);
+        
+
+        marker_ad0461f4398c4e33b73f10d16a71e0d4.bindPopup(popup_6d1bc90bf194481eb0ed5289fba79685)
+        ;
+
+        
+    
+    
+            marker_ad0461f4398c4e33b73f10d16a71e0d4.bindTooltip(
+                `<div>
+                     Peeler Community Park
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_47203425916f4996b22595b530558e23 = L.marker(
+                [41.6400656, -83.5355732],
+                {}
+            ).addTo(map_4d79522117d645ac96febca99b917893);
+        
+    
+        var popup_081b5a5bbf8a48219ef3fb94ea76fa04 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_399be245eae94f008743cb009a3d4f17 = $(`<div id="html_399be245eae94f008743cb009a3d4f17" style="width: 100.0%; height: 100.0%;">Project Name: Downtown Waterfront Metropark<br>Project Year: 2017<br>City: Toledo <br>Project Sponsor: Development Metroparks Toledo</div>`)[0];
+            popup_081b5a5bbf8a48219ef3fb94ea76fa04.setContent(html_399be245eae94f008743cb009a3d4f17);
+        
+
+        marker_47203425916f4996b22595b530558e23.bindPopup(popup_081b5a5bbf8a48219ef3fb94ea76fa04)
+        ;
+
+        
+    
+    
+            marker_47203425916f4996b22595b530558e23.bindTooltip(
+                `<div>
+                     Downtown Waterfront Metropark
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_428bec92cb524534a2c6215951fa1e5f = L.marker(
+                [39.9194768, -75.1565192],
+                {}
+            ).addTo(map_4d79522117d645ac96febca99b917893);
+        
+    
+        var popup_8cbaa17869404355b4561ba652907435 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b823b58b52ec4e48a4e33dffa03217d6 = $(`<div id="html_b823b58b52ec4e48a4e33dffa03217d6" style="width: 100.0%; height: 100.0%;">Project Name: Mifflin Square Park Phase I Redevelopment<br>Project Year: 2017<br>City: Philadelphia<br>Project Sponsor: The City of Philadelphia</div>`)[0];
+            popup_8cbaa17869404355b4561ba652907435.setContent(html_b823b58b52ec4e48a4e33dffa03217d6);
+        
+
+        marker_428bec92cb524534a2c6215951fa1e5f.bindPopup(popup_8cbaa17869404355b4561ba652907435)
+        ;
+
+        
+    
+    
+            marker_428bec92cb524534a2c6215951fa1e5f.bindTooltip(
+                `<div>
+                     Mifflin Square Park Phase I Redevelopment
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7fd84990e48b4e5496104ae3b4b9e689 = L.marker(
+                [41.8207607, -71.4572714],
+                {}
+            ).addTo(map_4d79522117d645ac96febca99b917893);
+        
+    
+        var popup_96571902f9604c44829962273dcf13d1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0f7438790e7340ebba3dbbe235508c1f = $(`<div id="html_0f7438790e7340ebba3dbbe235508c1f" style="width: 100.0%; height: 100.0%;">Project Name: Woonasquatucket River Adventure Park Phase II<br>Project Year: 2017<br>City: Providence <br>Project Sponsor: The City of Providence</div>`)[0];
+            popup_96571902f9604c44829962273dcf13d1.setContent(html_0f7438790e7340ebba3dbbe235508c1f);
+        
+
+        marker_7fd84990e48b4e5496104ae3b4b9e689.bindPopup(popup_96571902f9604c44829962273dcf13d1)
+        ;
+
+        
+    
+    
+            marker_7fd84990e48b4e5496104ae3b4b9e689.bindTooltip(
+                `<div>
+                     Woonasquatucket River Adventure Park Phase II
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ef823ec119a7497db26ab56d7076519e = L.marker(
+                [35.178424, -89.9515934],
+                {}
+            ).addTo(map_4d79522117d645ac96febca99b917893);
+        
+    
+        var popup_3f465a9fb7794a4badfb3598a6ba69a6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5ecaa9633d954072b584ceea67243da1 = $(`<div id="html_5ecaa9633d954072b584ceea67243da1" style="width: 100.0%; height: 100.0%;">Project Name: Douglass Park Redevelopment<br>Project Year: 2017<br>City: Memphis<br>Project Sponsor: The City of Memphis</div>`)[0];
+            popup_3f465a9fb7794a4badfb3598a6ba69a6.setContent(html_5ecaa9633d954072b584ceea67243da1);
+        
+
+        marker_ef823ec119a7497db26ab56d7076519e.bindPopup(popup_3f465a9fb7794a4badfb3598a6ba69a6)
+        ;
+
+        
+    
+    
+            marker_ef823ec119a7497db26ab56d7076519e.bindTooltip(
+                `<div>
+                     Douglass Park Redevelopment
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ad2ac6ec934f49fb9e01ebbe9c9d219c = L.marker(
+                [47.528398, -122.324025],
+                {}
+            ).addTo(map_4d79522117d645ac96febca99b917893);
+        
+    
+        var popup_a2062e49725f4ffc8ad274d94321fab1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f5d478364f724d47a13091a23b9237bd = $(`<div id="html_f5d478364f724d47a13091a23b9237bd" style="width: 100.0%; height: 100.0%;">Project Name: South Park Playground, Spray Park, and Playfield<br>Project Year: 2017<br>City: Seattle<br>Project Sponsor: The City of Seattle, Parks and Recreation</div>`)[0];
+            popup_a2062e49725f4ffc8ad274d94321fab1.setContent(html_f5d478364f724d47a13091a23b9237bd);
+        
+
+        marker_ad2ac6ec934f49fb9e01ebbe9c9d219c.bindPopup(popup_a2062e49725f4ffc8ad274d94321fab1)
+        ;
+
+        
+    
+    
+            marker_ad2ac6ec934f49fb9e01ebbe9c9d219c.bindTooltip(
+                `<div>
+                     South Park Playground, Spray Park, and Playfield
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_93bf430276b0437e97ab514c9a26f1dc = L.marker(
+                [43.0516, -87.951603],
+                {}
+            ).addTo(map_4d79522117d645ac96febca99b917893);
+        
+    
+        var popup_63dd9c0f510c480398f7550bbf3aeeea = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c53c871fe3094c68bc13e8dd555d8c8b = $(`<div id="html_c53c871fe3094c68bc13e8dd555d8c8b" style="width: 100.0%; height: 100.0%;">Project Name: Galena Park Development<br>Project Year: 2017<br>City: Milwaukee<br>Project Sponsor: The City of Milwaukee Department of Public Works</div>`)[0];
+            popup_63dd9c0f510c480398f7550bbf3aeeea.setContent(html_c53c871fe3094c68bc13e8dd555d8c8b);
+        
+
+        marker_93bf430276b0437e97ab514c9a26f1dc.bindPopup(popup_63dd9c0f510c480398f7550bbf3aeeea)
+        ;
+
+        
+    
+    
+            marker_93bf430276b0437e97ab514c9a26f1dc.bindTooltip(
+                `<div>
+                     Galena Park Development
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_360fbaca8b044dd59fe74614bea17f13 = L.marker(
+                [42.99666, -87.92554],
+                {}
+            ).addTo(map_4d79522117d645ac96febca99b917893);
+        
+    
+        var popup_99de0061140f454c9f5e5107c11196f9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_028f3ab62a554dc38ce30ba5dd771893 = $(`<div id="html_028f3ab62a554dc38ce30ba5dd771893" style="width: 100.0%; height: 100.0%;">Project Name: Modrzejewski Playfield Redevelopment<br>Project Year: 2017<br>City: Milwaukee<br>Project Sponsor: The Milwaukee Public Schools Department of Recreation and Community Services</div>`)[0];
+            popup_99de0061140f454c9f5e5107c11196f9.setContent(html_028f3ab62a554dc38ce30ba5dd771893);
+        
+
+        marker_360fbaca8b044dd59fe74614bea17f13.bindPopup(popup_99de0061140f454c9f5e5107c11196f9)
+        ;
+
+        
+    
+    
+            marker_360fbaca8b044dd59fe74614bea17f13.bindTooltip(
+                `<div>
+                     Modrzejewski Playfield Redevelopment
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_50888908d41841ec98d1e1b6b04687f7 = L.marker(
+                [61.208991, -149.731189],
+                {}
+            ).addTo(map_4d79522117d645ac96febca99b917893);
+        
+    
+        var popup_298ffe1046364619933dc4e35aeeed03 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_813d0ce3a85141aeb2b383f92ca22f73 = $(`<div id="html_813d0ce3a85141aeb2b383f92ca22f73" style="width: 100.0%; height: 100.0%;">Project Name: Development of Muldoon Town Square Park<br>Project Year: 2015<br>City: Anchorage<br>Project Sponsor: Municipality of Anchorage, AK</div>`)[0];
+            popup_298ffe1046364619933dc4e35aeeed03.setContent(html_813d0ce3a85141aeb2b383f92ca22f73);
+        
+
+        marker_50888908d41841ec98d1e1b6b04687f7.bindPopup(popup_298ffe1046364619933dc4e35aeeed03)
+        ;
+
+        
+    
+    
+            marker_50888908d41841ec98d1e1b6b04687f7.bindTooltip(
+                `<div>
+                     Development of Muldoon Town Square Park
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6aab63570a11466aa61e5dd8e0410c25 = L.marker(
+                [37.714759, -122.392901],
+                {}
+            ).addTo(map_4d79522117d645ac96febca99b917893);
+        
+    
+        var popup_8fb44d3900764670a9fb30a0aa302f19 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7e939c8a222a463c85fe68ed52641397 = $(`<div id="html_7e939c8a222a463c85fe68ed52641397" style="width: 100.0%; height: 100.0%;">Project Name: Bay View Park Playground Improvement Project <br>Project Year: 2015<br>City: San Francisco<br>Project Sponsor: City of San Francisco, CA</div>`)[0];
+            popup_8fb44d3900764670a9fb30a0aa302f19.setContent(html_7e939c8a222a463c85fe68ed52641397);
+        
+
+        marker_6aab63570a11466aa61e5dd8e0410c25.bindPopup(popup_8fb44d3900764670a9fb30a0aa302f19)
+        ;
+
+        
+    
+    
+            marker_6aab63570a11466aa61e5dd8e0410c25.bindTooltip(
+                `<div>
+                     Bay View Park Playground Improvement Project 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_192295d785624069b2088d8030b5f6bb = L.marker(
+                [38.039897, -121.963227],
+                {}
+            ).addTo(map_4d79522117d645ac96febca99b917893);
+        
+    
+        var popup_f82d7365c6e2432d92680f868058a525 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_95bebb41a8ce4cbc8fcdec8ba5eeca40 = $(`<div id="html_95bebb41a8ce4cbc8fcdec8ba5eeca40" style="width: 100.0%; height: 100.0%;">Project Name: Bay Point Wetland Restoration and Public Access Project <br>Project Year: 2015<br>City: Bay Point<br>Project Sponsor: East Bay Regional Park District (Bay Point), CA</div>`)[0];
+            popup_f82d7365c6e2432d92680f868058a525.setContent(html_95bebb41a8ce4cbc8fcdec8ba5eeca40);
+        
+
+        marker_192295d785624069b2088d8030b5f6bb.bindPopup(popup_f82d7365c6e2432d92680f868058a525)
+        ;
+
+        
+    
+    
+            marker_192295d785624069b2088d8030b5f6bb.bindTooltip(
+                `<div>
+                     Bay Point Wetland Restoration
+and Public Access Project 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d9d7e7674a404ff9aee9b76e9bca4818 = L.marker(
+                [41.751628, -72.669072],
+                {}
+            ).addTo(map_4d79522117d645ac96febca99b917893);
+        
+    
+        var popup_e7fc2b08f51647bfae315bb7d44cceca = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4eb19e61dbdc4e60b8725f214ea6827a = $(`<div id="html_4eb19e61dbdc4e60b8725f214ea6827a" style="width: 100.0%; height: 100.0%;">Project Name: Renovation of Colt Park Athletic Fields<br>Project Year: 2015<br>City: Hartford<br>Project Sponsor: City of Hartford, CT</div>`)[0];
+            popup_e7fc2b08f51647bfae315bb7d44cceca.setContent(html_4eb19e61dbdc4e60b8725f214ea6827a);
+        
+
+        marker_d9d7e7674a404ff9aee9b76e9bca4818.bindPopup(popup_e7fc2b08f51647bfae315bb7d44cceca)
+        ;
+
+        
+    
+    
+            marker_d9d7e7674a404ff9aee9b76e9bca4818.bindTooltip(
+                `<div>
+                     Renovation of Colt Park Athletic Fields
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4b8ecd00b5e5410b8b2f23eae2c954d1 = L.marker(
+                [39.75296, -75.568243],
+                {}
+            ).addTo(map_4d79522117d645ac96febca99b917893);
+        
+    
+        var popup_694efbb2294f4e5199c4a312b622c393 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_41495df308064106a650ba240b9dba0d = $(`<div id="html_41495df308064106a650ba240b9dba0d" style="width: 100.0%; height: 100.0%;">Project Name: Father Tucker Park Playground and Spray Pad<br>Project Year: 2015<br>City: Wilmington<br>Project Sponsor: City of Wilmington, DE</div>`)[0];
+            popup_694efbb2294f4e5199c4a312b622c393.setContent(html_41495df308064106a650ba240b9dba0d);
+        
+
+        marker_4b8ecd00b5e5410b8b2f23eae2c954d1.bindPopup(popup_694efbb2294f4e5199c4a312b622c393)
+        ;
+
+        
+    
+    
+            marker_4b8ecd00b5e5410b8b2f23eae2c954d1.bindTooltip(
+                `<div>
+                     Father Tucker Park Playground and Spray Pad
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d1dff231f6904878b64e2213b017bae6 = L.marker(
+                [33.742789, -84.437289],
+                {}
+            ).addTo(map_4d79522117d645ac96febca99b917893);
+        
+    
+        var popup_123bf97ab1f645da98260d22d501fa16 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3f05dba4bb1b49b8b325f6eacf208323 = $(`<div id="html_3f05dba4bb1b49b8b325f6eacf208323" style="width: 100.0%; height: 100.0%;">Project Name: Enota Park Development <br>Project Year: 2015<br>City: Atlanta <br>Project Sponsor: City of Atlanta, GA</div>`)[0];
+            popup_123bf97ab1f645da98260d22d501fa16.setContent(html_3f05dba4bb1b49b8b325f6eacf208323);
+        
+
+        marker_d1dff231f6904878b64e2213b017bae6.bindPopup(popup_123bf97ab1f645da98260d22d501fa16)
+        ;
+
+        
+    
+    
+            marker_d1dff231f6904878b64e2213b017bae6.bindTooltip(
+                `<div>
+                     Enota Park Development 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7f9c886feaa5497185783d4bf87461c9 = L.marker(
+                [42.517584, -90.671227],
+                {}
+            ).addTo(map_4d79522117d645ac96febca99b917893);
+        
+    
+        var popup_08a44bd09b284d2eb088feb0911336d5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eaa6777b2ba249cd90a2a447f9c9c5f8 = $(`<div id="html_eaa6777b2ba249cd90a2a447f9c9c5f8" style="width: 100.0%; height: 100.0%;">Project Name: Comiskey Park Development<br>Project Year: 2015<br>City: Dubuque<br>Project Sponsor: City of Dubuque, IA</div>`)[0];
+            popup_08a44bd09b284d2eb088feb0911336d5.setContent(html_eaa6777b2ba249cd90a2a447f9c9c5f8);
+        
+
+        marker_7f9c886feaa5497185783d4bf87461c9.bindPopup(popup_08a44bd09b284d2eb088feb0911336d5)
+        ;
+
+        
+    
+    
+            marker_7f9c886feaa5497185783d4bf87461c9.bindTooltip(
+                `<div>
+                     Comiskey Park Development
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e62ed0ff3ab44c6991734a4c2c4926a4 = L.marker(
+                [39.305197, -76.696844],
+                {}
+            ).addTo(map_4d79522117d645ac96febca99b917893);
+        
+    
+        var popup_39a998f5ab6d45d080b67fc68bc9168a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c082d2fe822e470b84be1cb205bbc0e3 = $(`<div id="html_c082d2fe822e470b84be1cb205bbc0e3" style="width: 100.0%; height: 100.0%;">Project Name: Youth Campground Improvements in Gwynns Falls Leakin Park<br>Project Year: 2015<br>City: Baltimore<br>Project Sponsor: City of Baltimore, MD </div>`)[0];
+            popup_39a998f5ab6d45d080b67fc68bc9168a.setContent(html_c082d2fe822e470b84be1cb205bbc0e3);
+        
+
+        marker_e62ed0ff3ab44c6991734a4c2c4926a4.bindPopup(popup_39a998f5ab6d45d080b67fc68bc9168a)
+        ;
+
+        
+    
+    
+            marker_e62ed0ff3ab44c6991734a4c2c4926a4.bindTooltip(
+                `<div>
+                     Youth Campground Improvements in
+Gwynns Falls Leakin Park
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_83e73d1ff6dc458596a6ec799a0661df = L.marker(
+                [42.343254, -82.97435],
+                {}
+            ).addTo(map_4d79522117d645ac96febca99b917893);
+        
+    
+        var popup_fb728e3f754c48adbd226f8fca574e9d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_43ca50dda16242fc83b48b4f217b759a = $(`<div id="html_43ca50dda16242fc83b48b4f217b759a" style="width: 100.0%; height: 100.0%;">Project Name: Belle Isle Park Multi-Use Looped Trail Development<br>Project Year: 2015<br>City: Belle Isle<br>Project Sponsor: Michigan DNR (Detroit) MI</div>`)[0];
+            popup_fb728e3f754c48adbd226f8fca574e9d.setContent(html_43ca50dda16242fc83b48b4f217b759a);
+        
+
+        marker_83e73d1ff6dc458596a6ec799a0661df.bindPopup(popup_fb728e3f754c48adbd226f8fca574e9d)
+        ;
+
+        
+    
+    
+            marker_83e73d1ff6dc458596a6ec799a0661df.bindTooltip(
+                `<div>
+                     Belle Isle Park Multi-Use Looped Trail Development
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5048f4d1a49c41baa1e0dd792c2193eb = L.marker(
+                [46.761731, -92.141744],
+                {}
+            ).addTo(map_4d79522117d645ac96febca99b917893);
+        
+    
+        var popup_b29175c9ebd84c5c943688a1496a4788 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_477177dfc0214f628fd33fca631837b5 = $(`<div id="html_477177dfc0214f628fd33fca631837b5" style="width: 100.0%; height: 100.0%;">Project Name: Lincoln Park Restoration <br>Project Year: 2015<br>City: Duluth<br>Project Sponsor: City of Duluth, MN</div>`)[0];
+            popup_b29175c9ebd84c5c943688a1496a4788.setContent(html_477177dfc0214f628fd33fca631837b5);
+        
+
+        marker_5048f4d1a49c41baa1e0dd792c2193eb.bindPopup(popup_b29175c9ebd84c5c943688a1496a4788)
+        ;
+
+        
+    
+    
+            marker_5048f4d1a49c41baa1e0dd792c2193eb.bindTooltip(
+                `<div>
+                     Lincoln Park Restoration 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2fb68e63531c4def9df7a6d73279bcda = L.marker(
+                [38.957971, -92.365644],
+                {}
+            ).addTo(map_4d79522117d645ac96febca99b917893);
+        
+    
+        var popup_ea7997291ca54b2d9477a57ec795033c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_34193fb1f3db4aff87fe40db36072ebd = $(`<div id="html_34193fb1f3db4aff87fe40db36072ebd" style="width: 100.0%; height: 100.0%;">Project Name: Clary-Shy Park Urban Demonstration Farm<br>Project Year: 2015<br>City: Columbia<br>Project Sponsor: City of Columbia, MO</div>`)[0];
+            popup_ea7997291ca54b2d9477a57ec795033c.setContent(html_34193fb1f3db4aff87fe40db36072ebd);
+        
+
+        marker_2fb68e63531c4def9df7a6d73279bcda.bindPopup(popup_ea7997291ca54b2d9477a57ec795033c)
+        ;
+
+        
+    
+    
+            marker_2fb68e63531c4def9df7a6d73279bcda.bindTooltip(
+                `<div>
+                     Clary-Shy Park Urban Demonstration Farm
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c9f102c9ec5e435bafd8013493b86d8e = L.marker(
+                [38.639408, -90.205574],
+                {}
+            ).addTo(map_4d79522117d645ac96febca99b917893);
+        
+    
+        var popup_abf519b82fd742a082abf0b18eec718b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_606f3e0dc2934530b202c072532a02b2 = $(`<div id="html_606f3e0dc2934530b202c072532a02b2" style="width: 100.0%; height: 100.0%;">Project Name: Sparta Court Soccer Fields<br>Project Year: 2015<br>City: Wellston<br>Project Sponsor: St. Louis Co. Port Authority (Wellston) MO</div>`)[0];
+            popup_abf519b82fd742a082abf0b18eec718b.setContent(html_606f3e0dc2934530b202c072532a02b2);
+        
+
+        marker_c9f102c9ec5e435bafd8013493b86d8e.bindPopup(popup_abf519b82fd742a082abf0b18eec718b)
+        ;
+
+        
+    
+    
+            marker_c9f102c9ec5e435bafd8013493b86d8e.bindTooltip(
+                `<div>
+                     Sparta Court Soccer Fields
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3718cdb3501e42889e77fe352c0331d7 = L.marker(
+                [39.954332, -75.128803],
+                {}
+            ).addTo(map_4d79522117d645ac96febca99b917893);
+        
+    
+        var popup_922351598d834afa8e48d582445d14a1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c7a92f115a744e96b6da18cc26ad85c8 = $(`<div id="html_c7a92f115a744e96b6da18cc26ad85c8" style="width: 100.0%; height: 100.0%;">Project Name: North Camden Waterfront Park<br>Project Year: 2015<br>City: Camden<br>Project Sponsor: City of Camden, NJ</div>`)[0];
+            popup_922351598d834afa8e48d582445d14a1.setContent(html_c7a92f115a744e96b6da18cc26ad85c8);
+        
+
+        marker_3718cdb3501e42889e77fe352c0331d7.bindPopup(popup_922351598d834afa8e48d582445d14a1)
+        ;
+
+        
+    
+    
+            marker_3718cdb3501e42889e77fe352c0331d7.bindTooltip(
+                `<div>
+                     North Camden Waterfront Park
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cb708bc01703438380722bb2267365b1 = L.marker(
+                [40.725746, -74.188949],
+                {}
+            ).addTo(map_4d79522117d645ac96febca99b917893);
+        
+    
+        var popup_b0c84ef958b5419eac7f8e01d2ca9034 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e2d3ce86745949d2abc6d47b1d0a27b0 = $(`<div id="html_e2d3ce86745949d2abc6d47b1d0a27b0" style="width: 100.0%; height: 100.0%;">Project Name: Jesse Allen Park<br>Project Year: 2015<br>City: Newark<br>Project Sponsor: City of Newark, NJ</div>`)[0];
+            popup_b0c84ef958b5419eac7f8e01d2ca9034.setContent(html_e2d3ce86745949d2abc6d47b1d0a27b0);
+        
+
+        marker_cb708bc01703438380722bb2267365b1.bindPopup(popup_b0c84ef958b5419eac7f8e01d2ca9034)
+        ;
+
+        
+    
+    
+            marker_cb708bc01703438380722bb2267365b1.bindTooltip(
+                `<div>
+                     Jesse Allen Park
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0c08269ff1db4e7689d927331341160c = L.marker(
+                [35.769431, -78.628977],
+                {}
+            ).addTo(map_4d79522117d645ac96febca99b917893);
+        
+    
+        var popup_172da7ccbaae4253b60a4a6a3b92612a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ef9eac8aec1344bcb966883b1efbccd9 = $(`<div id="html_ef9eac8aec1344bcb966883b1efbccd9" style="width: 100.0%; height: 100.0%;">Project Name: Central Plaza John Chavis Memorial Park Revitalization<br>Project Year: 2015<br>City: Raleigh<br>Project Sponsor: City of Raleigh, NC</div>`)[0];
+            popup_172da7ccbaae4253b60a4a6a3b92612a.setContent(html_ef9eac8aec1344bcb966883b1efbccd9);
+        
+
+        marker_0c08269ff1db4e7689d927331341160c.bindPopup(popup_172da7ccbaae4253b60a4a6a3b92612a)
+        ;
+
+        
+    
+    
+            marker_0c08269ff1db4e7689d927331341160c.bindTooltip(
+                `<div>
+                     Central Plaza John Chavis
+Memorial Park Revitalization
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_56ba5df5f37a45628b2698d1ba0f1c45 = L.marker(
+                [41.686052, -83.495816],
+                {}
+            ).addTo(map_4d79522117d645ac96febca99b917893);
+        
+    
+        var popup_13906d4809cf4590a65ba63f257063c5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9355f356c0fc433484c59dd50fccf334 = $(`<div id="html_9355f356c0fc433484c59dd50fccf334" style="width: 100.0%; height: 100.0%;">Project Name: Manhattan Marsh park Development<br>Project Year: 2015<br>City: Toledo<br>Project Sponsor: Toledo Metroparks (Toledo), OH</div>`)[0];
+            popup_13906d4809cf4590a65ba63f257063c5.setContent(html_9355f356c0fc433484c59dd50fccf334);
+        
+
+        marker_56ba5df5f37a45628b2698d1ba0f1c45.bindPopup(popup_13906d4809cf4590a65ba63f257063c5)
+        ;
+
+        
+    
+    
+            marker_56ba5df5f37a45628b2698d1ba0f1c45.bindTooltip(
+                `<div>
+                     Manhattan Marsh park Development
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dfa1fda36854499691d8eeb0b739a966 = L.marker(
+                [30.249745, -97.725397],
+                {}
+            ).addTo(map_4d79522117d645ac96febca99b917893);
+        
+    
+        var popup_181cd650deee43db88f1054fa340df1c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_13e651f03c0a40c886aa27d60d60dae5 = $(`<div id="html_13e651f03c0a40c886aa27d60d60dae5" style="width: 100.0%; height: 100.0%;">Project Name: Edward Rendon Sr Metro Park – further development<br>Project Year: 2015<br>City: Austin<br>Project Sponsor: City of Austin, TX</div>`)[0];
+            popup_181cd650deee43db88f1054fa340df1c.setContent(html_13e651f03c0a40c886aa27d60d60dae5);
+        
+
+        marker_dfa1fda36854499691d8eeb0b739a966.bindPopup(popup_181cd650deee43db88f1054fa340df1c)
+        ;
+
+        
+    
+    
+            marker_dfa1fda36854499691d8eeb0b739a966.bindTooltip(
+                `<div>
+                     Edward Rendon Sr Metro Park –
+further development
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6f1ea39a7ba94af3b69cd705ccf09c55 = L.marker(
+                [29.746335, -95.295912],
+                {}
+            ).addTo(map_4d79522117d645ac96febca99b917893);
+        
+    
+        var popup_af7dfd82a3334d3ba5dd196c7df33833 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4a02c5038bba4c6cbd91bcc1b2169cc9 = $(`<div id="html_4a02c5038bba4c6cbd91bcc1b2169cc9" style="width: 100.0%; height: 100.0%;">Project Name: Buffalo Bend Hidalgo Park Greenway<br>Project Year: 2015<br>City: Houston<br>Project Sponsor: City of Houston, TX</div>`)[0];
+            popup_af7dfd82a3334d3ba5dd196c7df33833.setContent(html_4a02c5038bba4c6cbd91bcc1b2169cc9);
+        
+
+        marker_6f1ea39a7ba94af3b69cd705ccf09c55.bindPopup(popup_af7dfd82a3334d3ba5dd196c7df33833)
+        ;
+
+        
+    
+    
+            marker_6f1ea39a7ba94af3b69cd705ccf09c55.bindTooltip(
+                `<div>
+                     Buffalo Bend Hidalgo Park Greenway
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_da45c496cda74907a1e421288ff23509 = L.marker(
+                [44.479519, -73.221954],
+                {}
+            ).addTo(map_4d79522117d645ac96febca99b917893);
+        
+    
+        var popup_8c3a73f1a70f4f3eaedf88d9374d53a2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ce6adc0f3caf48428a8ff3e19ba7dde3 = $(`<div id="html_ce6adc0f3caf48428a8ff3e19ba7dde3" style="width: 100.0%; height: 100.0%;">Project Name: New Neighborhood Park on Burlington’s Waterfront Land Acquisition<br>Project Year: 2015<br>City: Burlington<br>Project Sponsor: City of Burlington, VT</div>`)[0];
+            popup_8c3a73f1a70f4f3eaedf88d9374d53a2.setContent(html_ce6adc0f3caf48428a8ff3e19ba7dde3);
+        
+
+        marker_da45c496cda74907a1e421288ff23509.bindPopup(popup_8c3a73f1a70f4f3eaedf88d9374d53a2)
+        ;
+
+        
+    
+    
+            marker_da45c496cda74907a1e421288ff23509.bindTooltip(
+                `<div>
+                     New Neighborhood Park on
+Burlington’s Waterfront Land Acquisition
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_51c525265c464ddd93a96152138f328d = L.marker(
+                [47.494768, -122.244364],
+                {}
+            ).addTo(map_4d79522117d645ac96febca99b917893);
+        
+    
+        var popup_b99eb9c91d954a8b9c319ab4f2b105ab = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9a53218dbd6949c8bd6370b9406d4781 = $(`<div id="html_9a53218dbd6949c8bd6370b9406d4781" style="width: 100.0%; height: 100.0%;">Project Name: Skyway Park Revitalization<br>Project Year: 2015<br>City: Seattle<br>Project Sponsor: King County Parks (Seattle), WA </div>`)[0];
+            popup_b99eb9c91d954a8b9c319ab4f2b105ab.setContent(html_9a53218dbd6949c8bd6370b9406d4781);
+        
+
+        marker_51c525265c464ddd93a96152138f328d.bindPopup(popup_b99eb9c91d954a8b9c319ab4f2b105ab)
+        ;
+
+        
+    
+    
+            marker_51c525265c464ddd93a96152138f328d.bindTooltip(
+                `<div>
+                     Skyway Park Revitalization
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f6295c0faf174af6b26484bac0e627e1 = L.marker(
+                [47.223076, -122.394472],
+                {}
+            ).addTo(map_4d79522117d645ac96febca99b917893);
+        
+    
+        var popup_ac54eba574c1416f824d5001efac94aa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e4b2b1786d4d45f9a9e5913417bf429d = $(`<div id="html_e4b2b1786d4d45f9a9e5913417bf429d" style="width: 100.0%; height: 100.0%;">Project Name: Swan Creek Park Trail Network<br>Project Year: 2015<br>City: Tacoma<br>Project Sponsor: Metro Parks Tacoma, WA</div>`)[0];
+            popup_ac54eba574c1416f824d5001efac94aa.setContent(html_e4b2b1786d4d45f9a9e5913417bf429d);
+        
+
+        marker_f6295c0faf174af6b26484bac0e627e1.bindPopup(popup_ac54eba574c1416f824d5001efac94aa)
+        ;
+
+        
+    
+    
+            marker_f6295c0faf174af6b26484bac0e627e1.bindTooltip(
+                `<div>
+                     Swan Creek Park Trail Network
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9a31ab9e8a3e4a0db23f2287286be5a8 = L.marker(
+                [43.011827, -87.955569],
+                {}
+            ).addTo(map_4d79522117d645ac96febca99b917893);
+        
+    
+        var popup_45e2a38b52f8479490ace4f5571c6e96 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d0f1135495bf4532a6d7b498a41a55b9 = $(`<div id="html_d0f1135495bf4532a6d7b498a41a55b9" style="width: 100.0%; height: 100.0%;">Project Name: Burnham Park Redevelopment Project<br>Project Year: 2015<br>City: Milwaukee<br>Project Sponsor: Milwaukee Rec/Public Schools, WI</div>`)[0];
+            popup_45e2a38b52f8479490ace4f5571c6e96.setContent(html_d0f1135495bf4532a6d7b498a41a55b9);
+        
+
+        marker_9a31ab9e8a3e4a0db23f2287286be5a8.bindPopup(popup_45e2a38b52f8479490ace4f5571c6e96)
+        ;
+
+        
+    
+    
+            marker_9a31ab9e8a3e4a0db23f2287286be5a8.bindTooltip(
+                `<div>
+                     Burnham Park Redevelopment Project
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_323942e8d08146a2a74d0ee4f078b694 = L.marker(
+                [30.709177, -88.101552],
+                {}
+            ).addTo(map_4d79522117d645ac96febca99b917893);
+        
+    
+        var popup_cd5a1ca3d8d84ff9a9ba3a68ae52034e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_44b08806e0504b06af6888ddedd6554f = $(`<div id="html_44b08806e0504b06af6888ddedd6554f" style="width: 100.0%; height: 100.0%;">Project Name: Three Mile Creek<br>Project Year: 2014<br>City: Mobile<br>Project Sponsor: The City of Mobile</div>`)[0];
+            popup_cd5a1ca3d8d84ff9a9ba3a68ae52034e.setContent(html_44b08806e0504b06af6888ddedd6554f);
+        
+
+        marker_323942e8d08146a2a74d0ee4f078b694.bindPopup(popup_cd5a1ca3d8d84ff9a9ba3a68ae52034e)
+        ;
+
+        
+    
+    
+            marker_323942e8d08146a2a74d0ee4f078b694.bindTooltip(
+                `<div>
+                     Three Mile Creek
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_32fa6a50459c448f90a1e66daa470d15 = L.marker(
+                [39.783688, -104.827222],
+                {}
+            ).addTo(map_4d79522117d645ac96febca99b917893);
+        
+    
+        var popup_718eeaa3c1b44015848b8eaf580aa171 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fb4101a2fe8a405a9fa2bf48013d36b4 = $(`<div id="html_fb4101a2fe8a405a9fa2bf48013d36b4" style="width: 100.0%; height: 100.0%;">Project Name: Montebello<br>Project Year: 2014<br>City: Denver<br>Project Sponsor: The City of Denver</div>`)[0];
+            popup_718eeaa3c1b44015848b8eaf580aa171.setContent(html_fb4101a2fe8a405a9fa2bf48013d36b4);
+        
+
+        marker_32fa6a50459c448f90a1e66daa470d15.bindPopup(popup_718eeaa3c1b44015848b8eaf580aa171)
+        ;
+
+        
+    
+    
+            marker_32fa6a50459c448f90a1e66daa470d15.bindTooltip(
+                `<div>
+                     Montebello
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bd7e0482c772408fb319faad651ade67 = L.marker(
+                [41.178818, -73.159208],
+                {}
+            ).addTo(map_4d79522117d645ac96febca99b917893);
+        
+    
+        var popup_7882d3d10d7e48a29e859a99ee7f409b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5a5873dde644402d8d5c9ea2494d1742 = $(`<div id="html_5a5873dde644402d8d5c9ea2494d1742" style="width: 100.0%; height: 100.0%;">Project Name: Johnson Oak Park<br>Project Year: 2014<br>City: Bridgeport<br>Project Sponsor: The City of Bridgeport</div>`)[0];
+            popup_7882d3d10d7e48a29e859a99ee7f409b.setContent(html_5a5873dde644402d8d5c9ea2494d1742);
+        
+
+        marker_bd7e0482c772408fb319faad651ade67.bindPopup(popup_7882d3d10d7e48a29e859a99ee7f409b)
+        ;
+
+        
+    
+    
+            marker_bd7e0482c772408fb319faad651ade67.bindTooltip(
+                `<div>
+                     Johnson Oak Park
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_813d7fadad7849a99712a314c65bff37 = L.marker(
+                [42.343254, -82.97435],
+                {}
+            ).addTo(map_4d79522117d645ac96febca99b917893);
+        
+    
+        var popup_36c6e95af93245a4ac0a2b7815e2c0e8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9751093e160641fc81bd852ca912848a = $(`<div id="html_9751093e160641fc81bd852ca912848a" style="width: 100.0%; height: 100.0%;">Project Name: Athletic Complex at Belle Isle Park<br>Project Year: 2014<br>City: Belle Isle<br>Project Sponsor: The Michigan Department of Natural Resources</div>`)[0];
+            popup_36c6e95af93245a4ac0a2b7815e2c0e8.setContent(html_9751093e160641fc81bd852ca912848a);
+        
+
+        marker_813d7fadad7849a99712a314c65bff37.bindPopup(popup_36c6e95af93245a4ac0a2b7815e2c0e8)
+        ;
+
+        
+    
+    
+            marker_813d7fadad7849a99712a314c65bff37.bindTooltip(
+                `<div>
+                     Athletic Complex at Belle Isle Park
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c58dbf65ce9d4797be3217387a9f3023 = L.marker(
+                [44.999694, -93.273671],
+                {}
+            ).addTo(map_4d79522117d645ac96febca99b917893);
+        
+    
+        var popup_ceb677029a824f8cbe35838db32a90f9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_49b927ad31ef44468e5529a79f2d6274 = $(`<div id="html_49b927ad31ef44468e5529a79f2d6274" style="width: 100.0%; height: 100.0%;">Project Name: Sheridan Memorial Park<br>Project Year: 2014<br>City: Minneapolis<br>Project Sponsor: The Minneapolis Park and Recreation Board</div>`)[0];
+            popup_ceb677029a824f8cbe35838db32a90f9.setContent(html_49b927ad31ef44468e5529a79f2d6274);
+        
+
+        marker_c58dbf65ce9d4797be3217387a9f3023.bindPopup(popup_ceb677029a824f8cbe35838db32a90f9)
+        ;
+
+        
+    
+    
+            marker_c58dbf65ce9d4797be3217387a9f3023.bindTooltip(
+                `<div>
+                     Sheridan Memorial Park
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6ec13c7519db4b58ab9c9f03adcb0228 = L.marker(
+                [45.565273, -122.5889],
+                {}
+            ).addTo(map_4d79522117d645ac96febca99b917893);
+        
+    
+        var popup_338271f66f814693bc1d130054eb32cb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b5ed2ded96a44fdeaf0595ad878fd2dc = $(`<div id="html_b5ed2ded96a44fdeaf0595ad878fd2dc" style="width: 100.0%; height: 100.0%;">Project Name: Thomas Cully Park.<br>Project Year: 2014<br>City: Portland<br>Project Sponsor: The City of Portland, Verde, and private partners</div>`)[0];
+            popup_338271f66f814693bc1d130054eb32cb.setContent(html_b5ed2ded96a44fdeaf0595ad878fd2dc);
+        
+
+        marker_6ec13c7519db4b58ab9c9f03adcb0228.bindPopup(popup_338271f66f814693bc1d130054eb32cb)
+        ;
+
+        
+    
+    
+            marker_6ec13c7519db4b58ab9c9f03adcb0228.bindTooltip(
+                `<div>
+                     Thomas Cully Park.
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1df53b9a85a248cb8197a522c130214e = L.marker(
+                [43.08314, -89.367294],
+                {}
+            ).addTo(map_4d79522117d645ac96febca99b917893);
+        
+    
+        var popup_2b40968536c24055a4eafef933d0478f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_299164a7386c4910891cc2349eb336a3 = $(`<div id="html_299164a7386c4910891cc2349eb336a3" style="width: 100.0%; height: 100.0%;">Project Name: Skate Park - Central Park in Madison’s Near East Side<br>Project Year: 2014<br>City: Madison<br>Project Sponsor: The City of Madison</div>`)[0];
+            popup_2b40968536c24055a4eafef933d0478f.setContent(html_299164a7386c4910891cc2349eb336a3);
+        
+
+        marker_1df53b9a85a248cb8197a522c130214e.bindPopup(popup_2b40968536c24055a4eafef933d0478f)
+        ;
+
+        
+    
+    
+            marker_1df53b9a85a248cb8197a522c130214e.bindTooltip(
+                `<div>
+                     Skate Park - Central Park in Madison’s Near East Side
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
